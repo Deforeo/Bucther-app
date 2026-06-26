@@ -214,11 +214,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataAccess\DatabaseContext.cs" />
     <Compile Include="Enums\OrderKitchenStatus.cs" />
     <Compile Include="Enums\OrderStatus.cs" />
     <Compile Include="Enums\ReservationStatus.cs" />
     <Compile Include="Enums\ShiftStatus.cs" />
     <Compile Include="Enums\UserRole.cs" />
+    <Compile Include="DataAccess\Helpers\DbSettings.cs" />
+    <Compile Include="DataAccess\Helpers\SqlExceptionHelper.cs" />
     <Compile Include="Interfaces\INavigationService.cs" />
     <Compile Include="Interfaces\IUserSessionService.cs" />
     <Compile Include="MainWindow.xaml.cs">
