@@ -206,6 +206,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Services\DTO\DishDto.cs" />
+    <Compile Include="Services\DTO\OrderDto.cs" />
+    <Compile Include="Services\DTO\ReservationDto.cs" />
+    <Compile Include="Services\DTO\ShiftDto.cs" />
+    <Compile Include="Services\DTO\StaffDto.cs" />
+    <Compile Include="Services\DTO\TableDto.cs" />
+    <Compile Include="Services\Helpers\TimeValidator.cs" />
+    <Compile Include="Services\Implementations\AdminService.cs" />
+    <Compile Include="Services\Implementations\KitchenService.cs" />
+    <Compile Include="Services\Implementations\NavigationService.cs" />
+    <Compile Include="Services\Implementations\OrderService.cs" />
+    <Compile Include="Services\Implementations\ReservationService.cs" />
+    <Compile Include="Services\Implementations\SessionService.cs" />
+    <Compile Include="Services\Implementations\ShiftService.cs" />
+    <Compile Include="Services\Interfaces\IAdminService.cs" />
+    <Compile Include="Services\Interfaces\INavigationService.cs" />
+    <Compile Include="Services\Interfaces\IOrderService.cs" />
+    <Compile Include="Services\Interfaces\IReservationService.cs" />
+    <Compile Include="Services\Interfaces\ISessionService.cs" />
+    <Compile Include="Services\Interfaces\IShiftService.cs" />
+    <Compile Include="Services\Interfaces\ITableService.cs" />
+    <Compile Include="Services\Interfaces\TableService.cs" />
+    <Compile Include="Services\ServicesModule.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
