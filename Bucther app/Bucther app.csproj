@@ -214,7 +214,26 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataAccess\DataAccessModule.cs" />
     <Compile Include="DataAccess\DatabaseContext.cs" />
+    <Compile Include="DataAccess\Repositories\ClientRepository.cs" />
+    <Compile Include="DataAccess\Repositories\DishRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IClientRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IDishRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IOrderLineRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IOrderRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IReservationRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IShiftRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IStaffRepository.cs" />
+    <Compile Include="DataAccess\Repositories\ITableRepository.cs" />
+    <Compile Include="DataAccess\Repositories\OrderLineRepository.cs" />
+    <Compile Include="DataAccess\Repositories\OrderRepository.cs" />
+    <Compile Include="DataAccess\Repositories\RepositoryBase.cs" />
+    <Compile Include="DataAccess\Repositories\ReservationRepository.cs" />
+    <Compile Include="DataAccess\Repositories\ShiftRepository.cs" />
+    <Compile Include="DataAccess\Repositories\StaffRepository.cs" />
+    <Compile Include="DataAccess\Repositories\TableRepository.cs" />
     <Compile Include="Enums\OrderKitchenStatus.cs" />
     <Compile Include="Enums\OrderStatus.cs" />
     <Compile Include="Enums\ReservationStatus.cs" />
